@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-VDF4BQTI" name="ExecutePOM.POMExecutionTest" tests="1" failures="0" timestamp="30 Jun 2018 20:31:41 GMT" time="35.937" errors="0">
+  <testcase name="test1" time="35.918" classname="ExecutePOM.POMExecutionTest"/>
+</testsuite>
