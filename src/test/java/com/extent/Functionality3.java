@@ -8,6 +8,12 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 
 public class Functionality3 {
+	
+	@BeforeTest
+	public void setUP(){
+		system.out.println("Started the test");
+	}
+	
 	@Test
 	public void sen(){
 		ExtentHtmlReporter report = new ExtentHtmlReporter("./SenthlTestNG/ReportExtent/extent.html");
@@ -15,5 +21,11 @@ public class Functionality3 {
 		extent.attachReporter(report);
 	
 	}
+	
+	@AfterTest
+	public void testDown(){
+		system.out.println("Stoped the test");
+	}
+	
 
 }
