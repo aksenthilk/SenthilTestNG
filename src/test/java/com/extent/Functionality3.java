@@ -1,5 +1,7 @@
 package com.extent;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -11,7 +13,8 @@ public class Functionality3 {
 	
 	@BeforeTest
 	public void setUP(){
-		system.out.println("Started the test");
+		System.out.println("Started the test");
+		System.out.println("Created local branch also");
 	}
 	
 	@Test
@@ -24,7 +27,8 @@ public class Functionality3 {
 	
 	@AfterTest
 	public void testDown(){
-		system.out.println("Stoped the test");
+		System.out.println("Stoped the test");
+		System.out.println("good work");
 	}
 	
 
